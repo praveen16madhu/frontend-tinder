@@ -22,7 +22,8 @@ const router=createBrowserRouter([{
 }])
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  console.log('app .jsx')
 
   return (
     <>
